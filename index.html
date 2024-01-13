@@ -5,35 +5,149 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<nav>
-    <img src="" alt="header_logo">
-    <ul>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-    </ul>
+<nav class="navbar navbar-expand-md p-3">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html"><img src="img/GEHealthCare_logo.png" alt="header_logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            
+            <ul class="navbar-nav" id="navbarNav">
+                <li class="nav-item">
+                    <a href="" class ="nav-link link-black" >Package bundle</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class ="nav-link link-black" >Clinical cases</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class =" link-white">CEM program</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class =" link-white">Download brochure</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class =" link-white" >Book a demo</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </nav> 
 <header>
-    <div class="header_top"></div>
-    <div class="header_bot"></div>
+    <div class="header_top container-fluid">
+        <img src="img/Header → 1940_header.jpg.png" alt="pristine_bright_header">
+    </div>
+    <div class="header_bot container-fluid">
+        <div class=" container p-4">
+            <h1>GE HealthCare: over 10 years of contrast mammography leadership worldwide
+                
+            </h1>
+            <p>Contrast-Enhanced Mammography (CEM) is a game changer in breast diagnosis imaging and biopsy care. <b>GE HealthCare
+            pioneered this technology in 2010 associated with over 200 publications that demonstrates its clinical performances.</b>
+            </p>
+            <p>GE HealthCare’s CEM combines the morphologic and density information similarly to a conventional mammogram and the…
+
+            </p>
+            <div class="header_bot--readmore container">
+                <div class="line">
+                </div>
+                <a href="">Read more</a>
+                <div class="line">
+            </div>
+        </div>
+        
+    </div>
 </header>
 <main>
-    <section class="container_bundle"></section>
-    <section class="video_plugin"></section> 
+    <section class="container pristina_bundle">
+        <h2>Pristina Bright, our comprehensive Contrast-Enhanced Mammography package, bundles:</h2>
+        <div class="row pristina_bundle--row">
+            <div class="col pristina_bundle--column">
+                <img src="img/1940_bundle1.png.png" alt="1940_bundle1">
+                <div>
+                    <h3>Senographe Pristina</h3>
+                    <p>A sensitive design to reshape
+                    the Mammography experience.
+                    </p>
+                </div>
+                <button class="more">
+                    <img src="img/loupe.png" alt="loupe">
+                </button>
+                
+            </div>
+            <div class="col-1 pristina_bundle--plus"><img src="img/1940_plus.svg.png" alt="plus"></div>
+            <div class="col pristina_bundle--column">
+                <img src="img/1940_bundle2.png.png" alt="1940_bundle2">
+                <div>
+                    <h3>SenoBright™ HD</h3>
+                    <p>The CEM Mammography
+                        technology to see lesions that
+                        are otherwise masked.
+                    </p>
+                </div>
+                <button class="more">
+                    <img src="img/loupe.png" alt="loupe">
+                </button>
+            </div>
+            <div class="col-1 pristina_bundle--plus"><img src="img/1940_plus.svg.png" alt="plus"></div>
+            <div class="col pristina_bundle--column">
+                <img src="img/1940_bundle3.png.png" alt="1940_bundle3">
+                <div>
+                    <h3>Serena Bright™</h3>
+                    <p>The CEM biopsy solution
+                        that complements perfectly
+                        SenoBright™.
+                    </p>
+                </div>
+                <button class="more">
+                    <img src="img/loupe.png" alt="loupe">
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="video_plugin container-fluid">
+        <img src="img/1940_video.png.png" alt="video">
+    </section>
+    <section class="container bookademo_section p-5">
+        <button class="bookademo_button">Book a demo</button>
+    </section>
+    <section class="container carousel_container">
+        <h2>Clinical Cases</h2>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+           
+        </div>
+    </section>
+    <section class="CEMProgram_container container-fluid">
+        <div class="col-4 CEMprogram_img">sdqsd</div>
+        <div class="col-8 CEMprogram_text p-5">
+           <p>We are prepared to help you through every step of the way as you navigate this technology
+            for your facility. From implementation support to expert content, we have the knowledge
+            to help you succeed in developing a comprehensive CEM program.
+            </p>
+            <h4>Implementation Support and Training</h4>
+            <ul>
+                <li>Training- Virtual peer to peer training, case review and management</li>
+                <li>dsdsd</li>
+                <li>dsdsd</li>
+                <li>dsdsd</li>
+
+            </ul>
+        </div>
+    </section>
 
 
 </main>
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
-
-    </script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

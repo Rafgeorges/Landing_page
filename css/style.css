@@ -1,0 +1,228 @@
+/****** General ***********/
+* {
+  font-family: "Source Sans 3", sans-serif;
+}
+:root {
+  --grey: #e4e4e4;
+  --violet: #6022a6;
+}
+p {
+  font-size: 18px;
+  color: black;
+}
+/* NAV */
+nav {
+  height: 73.77px;
+  background-color: white;
+}
+nav img {
+  height: 26.38px;
+}
+
+nav ul {
+  list-style-type: none;
+  gap: 15px;
+  align-items: center;
+  background-color: white;
+}
+nav li {
+  display: inline;
+}
+nav a {
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.link-black {
+  color: black;
+}
+
+.link-white {
+  color: white;
+  background-color: var(--violet);
+  padding: 7px 25px;
+}
+/* HEADER */
+.header_top {
+  background-color: var(--violet);
+  margin: 0px;
+  padding: 0px;
+}
+
+.header_top img {
+  width: 100%;
+  object-fit: cover;
+}
+.header_bot {
+  background-color: var(--grey);
+  min-height: 274px;
+  text-align: center;
+  padding: 25px 0px;
+}
+.header_bot h1 {
+  font-size: 25px;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 30px;
+}
+.header_bot--readmore {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.line {
+  width: 100px;
+  height: 1px;
+  background-color: #8d8d8d;
+}
+.header_bot a {
+  text-decoration: none;
+  color: #8d8d8d;
+  font-size: 12px;
+  font-style: italic;
+}
+
+/* PRISTINA COLUMNS */
+.pristina_bundle {
+  background-color: white;
+  padding: 50px;
+}
+.pristina_bundle h2 {
+  color: var(--violet);
+  font-weight: 600;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.pristina_bundle--row {
+  align-items: center;
+  justify-content: center;
+}
+.pristina_bundle--plus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: 1px solid cyan;
+}
+.pristina_bundle--plus img {
+  width: 45px;
+}
+.pristina_bundle--column {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 295px;
+  max-width: 260px;
+  background-color: var(--grey);
+  border-radius: 10px;
+  padding: 28px;
+}
+.pristina_bundle--column img {
+  object-fit: contain;
+}
+.pristina_bundle--column h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  margin: 0px;
+}
+.pristina_bundle--column p {
+  line-height: 19.5px;
+  font-size: 15px;
+}
+.more {
+  background-color: var(--violet);
+  border: none;
+  height: 40px;
+  width: 40px;
+  padding: 7px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  border-radius: 0px 0px 5px 0px;
+}
+.more img {
+  object-fit: cover;
+}
+/* VIDEO */
+.video_plugin {
+  object-fit: cover;
+  padding: 0px;
+  max-width: 1200px;
+}
+.video_plugin img {
+  width: 100%;
+}
+/* BOOK A DEMO */
+.bookademo_section {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bookademo_button {
+  border-style: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  background-color: var(--violet);
+  width: 192px;
+  height: 34px;
+}
+/* CAROUSEL */
+.carousel_container {
+  background-color: black;
+  height: 500px;
+}
+
+.carousel_container h2 {
+  color: white;
+}
+.carousel-inner {
+  width: 100%;
+  height: 500px;
+  outline: 1px solid greenyellow;
+}
+.carousel-item {
+  height: 400px;
+  outline: 1px solid wheat;
+  position: relative;
+}
+
+.carousel-item img {
+  width: 50px;
+  height: 150px;
+  border: 1px solid red;
+  position: absolute;
+  left: 0px;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 0px;
+  outline: 1px solid blue;
+}
+
+/* CEM Program */
+.CEMProgram_container {
+  max-width: 1200px;
+  padding: 0px;
+  display: flex;
+  height: 572px;
+  background-color: white;
+}
+.CEMprogram_img {
+  outline: 1px solid blue;
+}
+.CEMprogram_text {
+  outline: 1px solid red;
+}
+.CEMprogram_text h4 {
+  font-size: 18px;
+  color: var(--violet);
+}
+
+.CEMprogram_text ul {
+  list-style-type: none;
+}
