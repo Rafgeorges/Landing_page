@@ -6,7 +6,7 @@
     <title>Landing Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -39,6 +39,7 @@
         </div>
     </div>
 </nav> 
+<!-- HEADER -->
 <header>
     <div class="header_top container-fluid">
         <img src="img/Header → 1940_header.jpg.png" alt="pristine_bright_header">
@@ -64,7 +65,9 @@
         
     </div>
 </header>
+<!-- MAIN -->
 <main>
+    <!-- PRISTINA COLUMNS -->
     <section class="container pristina_bundle">
         <h2>Pristina Bright, our comprehensive Contrast-Enhanced Mammography package, bundles:</h2>
         <div class="row pristina_bundle--row">
@@ -111,35 +114,151 @@
             </div>
         </div>
     </section>
+    <!-- VIDEO PLUGIN -->
     <section class="video_plugin container-fluid">
         <img src="img/1940_video.png.png" alt="video">
     </section>
+    <!-- BOOK A DEMO -->
     <section class="container bookademo_section p-5">
-        <button class="bookademo_button">Book a demo</button>
+        <button class="bookademo_button violet_button">Book a demo</button>
     </section>
+    <!-- CAROUSEL -->
     <section class="container carousel_container">
         <h2>Clinical Cases</h2>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
            
         </div>
     </section>
+    <!-- CEM COURSE -->
     <section class="CEMProgram_container container-fluid">
-        <div class="col-4 CEMprogram_img">sdqsd</div>
-        <div class="col-8 CEMprogram_text p-5">
-           <p>We are prepared to help you through every step of the way as you navigate this technology
-            for your facility. From implementation support to expert content, we have the knowledge
-            to help you succeed in developing a comprehensive CEM program.
-            </p>
-            <h4>Implementation Support and Training</h4>
-            <ul>
-                <li>Training- Virtual peer to peer training, case review and management</li>
-                <li>dsdsd</li>
-                <li>dsdsd</li>
-                <li>dsdsd</li>
+            <div class=" CEMProgram_img col-12 col-lg-4 d-none d-lg-block">
+                    <img class="object-fit-cover" src="img/1940_cem_program.png.png" alt="cem_program_img">
+            </div>
+            <div class=" CEMProgram_text p-5 col-12 col-lg-8">
+                <p>We are prepared to help you through every step of the way as you navigate this technology
+                    for your facility. From implementation support to expert content, we have the knowledge
+                    to help you succeed in developing a comprehensive CEM program.
+                </p>
+                <h4>Implementation Support and Training</h4>
+                <ul>
+                    <li>Training- Virtual peer to peer training, case review and management</li>
+                    <li>Dedicated support- Additional application days for extra training</li>
 
-            </ul>
-        </div>
+                </ul>
+                <ul>
+                    <li>Self-assessment review of cases</li>
+                    <li>Invitation to participate in inaugural US Breast Academy in Q4 2023</li>
+                </ul>
+                    <h4>Expert Content</h4>
+                <ul>
+                    <li>Access to past and future educational content including webinars and presentations</li>
+                    <li>Training content from recognized experts around the world- from developers of CEM
+                        to the first global users</li>
+                </ul>
+                <button class="violet_button CEMprogram_button">CEM educational course</button>
+            </div>
     </section>
+    <!-- BROCHURE -->
+    <section class="container-fluid brochure_container">
+        
+            <div class="row p-5 ">
+                <div class="col-12 col-md-5 col-xl-3 offset-md-1 offset-xl-3  brochure_title ">
+                    <h1>See the light, with Pristina Bright ⃰  </h1>
+                    <button class="violet_button">Download the brochure</button>
+                </div>
+                <div class="col-12 col-md-5 col-xl-3 brochure_img">
+                    <img class="object-fit-cover" src="img/1940_brochure.png.png" alt="">
+                 </div>
+
+
+
+            </div>
+            
+        
+
+    </section>
+    <!-- FORMULAIRE -->
+    <section class="col-12 offset-md-3 col-md-6 form_section p-5">
+            <h2>Book a demo</h2>
+            <form action="" class="row form_container">
+                <div class="col-6">
+                    <label for="firstname" class="form-label">First name</label>
+                    <input type="text" class="form-control" name="firstname" id="firstname">
+                </div>
+                <div class="col-6">
+                    <label for="lastname" class="form-label">Last name</label>
+                    <input type="text" class="form-control" name="lastname" id="lastname">
+                </div>
+
+                <div class="col-6">
+                    <label for="phone" class="form-label">Phone</label>
+                    <input type="text" class="form-control" name="phone" id="phone">
+                </div>
+
+                <div class="col-6">
+                    <label for="email" class="form-label">Email Adress</label>
+                    <input type="text" class="form-control" name="email" id="email">
+                </div>
+
+                <div class="col-6">
+                    <label for="institution" class="form-label">Institution</label>
+                    <input type="text" class="form-control" name="institution" id="institution">
+                </div>
+
+                <div class="col-6">
+                    <label for="role" class="form-label">Role</label>
+                    <input type="text" class="form-control" name="role" id="role">
+                </div>
+
+                <div class="col-6">
+                    <label for="postalcode" class="form-label">Postal Code</label>
+                    <input type="text" class="form-control" name="postalcode" id="postalcode">
+                </div>
+
+                <div class="col-6">
+                    <label for="city" class="form-label">City</label>
+                    <input type="text" class="form-control" name="city" id="city">
+                </div>
+
+                <div class="col-12">
+                    <label for="country" class="form-label">Country</label>
+                    <input type="text" class="form-control" name="country" id="country">
+                </div>
+                <p>You have a right to withdraw your consent at any time by clicking <a href="">here</a>. We may still continue to send you
+                    service-related and other non-promotional communications. For more information relating to our privacy
+                    practices, we invite you to review our Privacy Policy at: <a href="https://www.gehealthcare.com/privacy">https://www.gehealthcare.com/privacy</a></p>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">By clicking here, you are agreeing to receive marketing emails, newsletters and other
+                        promotional communications from GE HealthCare from time to time.
+                    </label>
+                </div>
+            
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary violet_button form_button ">Book a demo</button>
+                </div>
+            </form>
+    </section>
+    <footer class="text-center footer container-fluid">
+        <div class="container col-10 p-5">
+            <p>* Pristina Bright is a commercial offering that includes Senographe Pristina™, SenoBright™ HD and Serena Bright™.
+            </p>
+            <p>1. 510(k) K172404.
+                2. Compared to without contrast.
+                3. Sung JS, et al. Performance of Dual-Energy Contrast-enhanced Digital Mammography for Screening Women at Increased Risk of Breast Cancer. Radiology. 2019 Oct;293(1):81-88.
+                4. Sorin V, et al. Contrast-Enhanced Spectral Mammography in Women With Intermediate Breast Cancer Risk and Dense Breasts. AJR Am J Roentgenol. 2018 Nov;211(5):W267-W274.
+                5. Data on file. GE HealthCare 2020.
+                6. 510(k) K211215
+                7. Reader study performed by 3 MQSA qualified radiologists on 50 clinical images, comparing SenoBright HD with NIRA to current version.
+            </p>
+            <p>Privacy Policy | Terms and Conditions | Communication Preferences | Contact Us | Unsubscribe</p>
+            <p>© 2023 GE HealthCare.
+                Senographe Pristina™, SenoBright™ HD and Serena Bright™ are trademarks of GE HealthCare.
+                GE is a trademark of General Electric Company used under trademark license.
+                JB24505XX</p>
+        </div>
+    </footer>
 
 
 </main>

@@ -10,6 +10,15 @@ p {
   font-size: 18px;
   color: black;
 }
+
+.violet_button {
+  border-style: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  background-color: var(--violet);
+  padding: 7px 30px;
+}
 /* NAV */
 nav {
   height: 73.77px;
@@ -162,11 +171,6 @@ nav a {
   justify-content: center;
 }
 .bookademo_button {
-  border-style: none;
-  font-size: 16px;
-  font-weight: 700;
-  color: white;
-  background-color: var(--violet);
   width: 192px;
   height: 34px;
 }
@@ -174,6 +178,7 @@ nav a {
 .carousel_container {
   background-color: black;
   height: 500px;
+  max-width: 1200px;
 }
 
 .carousel_container h2 {
@@ -208,21 +213,110 @@ nav a {
 .CEMProgram_container {
   max-width: 1200px;
   padding: 0px;
-  display: flex;
-  height: 572px;
+  min-height: 572px;
   background-color: white;
+  display: flex;
+  flex-wrap: wrap;
 }
-.CEMprogram_img {
-  outline: 1px solid blue;
+.CEMProgram_img {
+  background-color: blue;
+  min-height: 500px;
 }
-.CEMprogram_text {
+.CEMProgram_img img {
+  width: 100%;
+}
+.CEMProgram_text {
   outline: 1px solid red;
 }
-.CEMprogram_text h4 {
+.CEMProgram_text h4 {
   font-size: 18px;
   color: var(--violet);
+  font-weight: 600;
+  margin-top: 10px;
 }
 
-.CEMprogram_text ul {
+.CEMProgram_text ul {
   list-style-type: none;
+}
+.CEMProgram_text li {
+  font-size: 18px;
+  color: black;
+  margin: 7px 0;
+}
+
+.CEMprogram_button {
+  width: 232px;
+  height: 34px;
+}
+
+/* BROCHURE */
+.brochure_container {
+  background-color: var(--grey);
+  min-height: 339px;
+  max-width: 1200px;
+}
+.brochure_title {
+  outline: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.brochure_title h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--violet);
+  text-align: center;
+}
+.brochure_img {
+  outline: 1px solid brown;
+}
+
+/* FORM */
+.form_section {
+  max-width: 1200px;
+}
+.form_section h2 {
+  color: var(--violet);
+  font-weight: 600;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.form_container div {
+  padding: 5px;
+}
+.form_container p {
+  font-size: 13px;
+}
+.form_container a {
+  color: black;
+}
+.form-label {
+  padding: 0px;
+  margin: 0px;
+  font-size: 15px;
+  font-weight: 700;
+}
+.form-check-label {
+  font-size: 13px;
+  font-weight: 700;
+}
+.form-control {
+  background-color: var(--grey);
+  height: 35px;
+  border-radius: 0;
+  border: none;
+}
+
+/* FOOTER */
+.footer {
+  background-color: var(--grey);
+  min-height: 323px;
+}
+
+.footer p {
+  color: #63666a;
+  font-size: 12px;
+  font-weight: 400;
 }
