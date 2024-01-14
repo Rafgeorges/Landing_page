@@ -157,9 +157,8 @@ p {
 }
 /* VIDEO */
 .video_plugin {
-  object-fit: cover;
-  padding: 0px;
   max-width: 1200px;
+  padding: 0px;
 }
 .video_plugin img {
   width: 100%;
@@ -235,43 +234,20 @@ p {
 }
 
 /* CEM Program */
+
 .CEMProgram_container {
   max-width: 1200px;
   padding: 0px;
-  min-height: 572px;
-  background-color: white;
-  display: flex;
-  flex-wrap: wrap;
 }
+
 .CEMProgram_img {
-  background-color: blue;
-  min-height: 500px;
+  max-width: 354px;
+  padding: 0px;
+  overflow: hidden;
 }
 .CEMProgram_img img {
-  width: 100%;
-}
-.CEMProgram_text {
-  outline: 1px solid red;
-}
-.CEMProgram_text h4 {
-  font-size: 18px;
-  color: var(--violet);
-  font-weight: 600;
-  margin-top: 10px;
-}
-
-.CEMProgram_text ul {
-  list-style-type: none;
-}
-.CEMProgram_text li {
-  font-size: 18px;
-  color: black;
-  margin: 7px 0;
-}
-
-.CEMprogram_button {
-  width: 232px;
-  height: 34px;
+  object-fit: fill;
+  height: 100%;
 }
 
 /* BROCHURE */
@@ -280,6 +256,25 @@ p {
   min-height: 339px;
   max-width: 1200px;
 }
+.brochure_row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.brochure_title {
+  max-width: 286px;
+}
+.brochure_title h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--violet);
+  text-align: center;
+}
+.brochure_img {
+}
+/* 
 .brochure_title {
   outline: 1px solid red;
   display: flex;
@@ -295,7 +290,7 @@ p {
 }
 .brochure_img {
   outline: 1px solid brown;
-}
+} */
 
 /* FORM */
 .form_section {
