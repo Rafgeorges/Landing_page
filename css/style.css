@@ -45,23 +45,26 @@ p {
   }
 }
 
+/*    ------------------    MAIN  ---------------- */
+
 /* PRISTINA SPLASH */
-.header_splash {
-  max-width: 1200px;
+.pristina_splash {
+  background-color: var(--violet);
   padding: 0px;
 }
-.header_bot {
+
+.pristina_bot {
   background-color: var(--grey);
   min-height: 274px;
   text-align: center;
 }
-.header_bot h1 {
+.pristina_bot h1 {
   font-size: 25px;
   font-weight: 600;
   color: black;
   margin-bottom: 30px;
 }
-.header_bot--readmore a {
+.pristina_bot--readmore a {
   font-style: italic;
   font-size: 12px;
   color: #8d8d8d;
@@ -72,8 +75,6 @@ p {
   width: 100px;
   background-color: #63666a;
 }
-/*    ------------------    MAIN  ---------------- */
-
 /* PRISTINA COLUMNS */
 
 .more {
@@ -91,11 +92,7 @@ p {
   object-fit: cover;
 }
 
-/* TEST */
-.de {
-  /* outline: 1px solid blue; */
-  max-width: 1200px;
-}
+/* PRISTINA COLUMNS */
 
 .pristina_column--row {
   /* outline: 1px solid black; */
@@ -155,6 +152,7 @@ p {
   .pristina_column--content > div > p {
   }
 }
+
 /* VIDEO */
 .video_plugin {
   max-width: 1200px;
@@ -272,25 +270,6 @@ p {
   color: var(--violet);
   text-align: center;
 }
-.brochure_img {
-}
-/* 
-.brochure_title {
-  outline: 1px solid red;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.brochure_title h1 {
-  font-size: 30px;
-  font-weight: 700;
-  color: var(--violet);
-  text-align: center;
-}
-.brochure_img {
-  outline: 1px solid brown;
-} */
 
 /* FORM */
 .form_section {
@@ -303,34 +282,62 @@ p {
   text-align: center;
   margin-bottom: 50px;
 }
+.form_container {
+}
 .form_container div {
   padding: 5px;
 }
 .form_container p {
+  font-family: Helvetica, sans-serif;
+  line-height: 16.9px;
+  color: #333333;
   font-size: 13px;
 }
 .form_container a {
+  font-family: Helvetica, sans-serif;
   color: black;
+  margin: 0px;
+  padding: 0px;
 }
 .form-label {
-  font-family: default;
-
+  font-family: Helvetica, sans-serif;
   padding: 0px;
   margin: 0px;
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 600;
+  color: #333333;
 }
-.form-check-label {
-  font-family: default;
-  font-size: 13px;
-  font-weight: 700;
-}
+
 .form-control {
-  font-family: default;
+  font-family: Helvetica, sans-serif;
   background-color: var(--grey);
   height: 35px;
   border-radius: 0;
   border: none;
+}
+.form-select {
+  font-family: Helvetica, sans-serif;
+  background-color: var(--grey);
+  height: 35px;
+  border-radius: 0;
+  border: none;
+  font-family: Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: #343a40;
+}
+.formcheck {
+  font-family: Helvetica, sans-serif;
+  display: flex;
+  gap: 10px;
+}
+.form-check-label {
+  font-family: Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+}
+.form-check-input {
+  border: 1px solid #767676;
 }
 
 /* FOOTER */
@@ -347,11 +354,6 @@ p {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 850px) {
-  .pristina_column--content {
-    max-width: none;
-    max-height: 295px;
-  }
-
   .plus {
     max-width: none;
   }

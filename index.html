@@ -6,6 +6,7 @@
     <title>Landing Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/modal.css">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -41,19 +42,19 @@
           </ul>
         </div>
       </nav>
+</header>
 
-
-
+<!-- MAIN -->
     <!-- PRISTINA SPLASH -->
-    <div class="container-fluid header_splash">
-        <div>
+    <section class="container-fluid pristina_splash">
+        <div class="p-0 d-flex justify-content-center">
             <img src="img/Header → 1940_header.jpg.png" class="img-fluid" alt="pristine_bright_header">
         </div>
-        <div class="header_bot container-fluid p-4 p-md-5">
-            <div class="col-md-10 offset-md-1">
+        <div class="pristina_bot p-4 p-md-5 ">
+            <div class="container px-4">
                 <h1>GE HealthCare: over 10 years of contrast mammography leadership worldwide  
                 </h1>
-                <p>Contrast-Enhanced Mammography (CEM) is a game changer in breast diagnosis imaging and biopsy care. <b>GE HealthCare
+                <p>Contrast-Enhanced Mammography (CEM) is a game changer in breast diagnosis imaging and biopsy  <b>GE HealthCare
                     pioneered this technology in 2010 associated with over 200 publications that demonstrates its clinical performances.</b>
                 </p>
                 <p>GE HealthCare’s CEM combines the morphologic and density information similarly to a conventional mammogram and the…
@@ -64,17 +65,17 @@
                     </div>
                     <a class="mx-2">Read more</a>
                     <div class="line">
-                    </div>
                 </div>
             </div>
         </div>
+    </section>
     
-</header>
-<!-- MAIN -->
+
+
 <main>
     <!-- PRISTINA COLUMNS -->
     <section>
-        <div class="de container-fluid text-center p-md-5 px-4 py-5">
+        <div class=" container-fluid text-center p-md-5 px-4 py-5">
             <div class="row pristina_column--row">
                 <h2>Pristina Bright, our comprehensive Contrast-Enhanced Mammography package, bundles:</h2>
             <!-- COLUMN 1 -->
@@ -143,58 +144,23 @@
           </div>
     </section>
          <!-- Modal -->
-         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog " role="document">
-              <div class="modal-content ">
-                
-                    <div class="col modal_left p-5">
-                        <div class="modal_left--header col-10">
-                            <p>Reshape the mammography experience</p>
-                            <h2>Senographe Pristina™</h2>
-                            <h3>Senographe Pristina was built with one objective in mind:
-                                to ease patient anxiety and feel comfortable during the exam.
-                            </h3>
-                        </div>
-                        <div class="modal_left--body">
-                            <div class="modal_left--body_left">
-                                <img src="img/1940_popup1_product.png.png" alt="">
-                            </div>
-                            <div class="modal_left--body_right">
-                                <ul>
-                                    <li>A new design to limit physical strain.</li>
-                                    <li>An inviting gantry, attractively lighted
-                                        with feminine shapes, promotes a sense
-                                        of calm.</li>
-                                    <li>All parts that contact the patient are
-                                        carefully rounpristina_column--content and minimized in size.</li>
-                                    <li>Flexible paddles are available that can
-                                        tilt to adapt to the breast anatomy.</li>
-                                    <li>A soft-curved surface invites patients into
-                                        a space of comfort and support.</li>
-                                </ul>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="col modal_body-right">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                
-                
-                
-                
-                
-                
-    
-    
-                <div class="modal-footer">
-                  
+         <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button>
+
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    ...
                 </div>
-              </div>
             </div>
-          </div>
+        </div>
+                
+                
+                
+                
+                
+                
+    
+    
         </section>
     <!-- VIDEO PLUGIN -->
     <section class="video_plugin container-fluid">
@@ -292,26 +258,19 @@
     </section>
     <!-- BROCHURE -->
     <section class="container-fluid brochure_container p-5">
-            <div class="brochure_row ">
+            <div class="brochure_row">
                 <div class="brochure_title text-center ">
                     <h1>See the light, with Pristina Bright ⃰  </h1>
                     <button class="violet_button">Download the brochure</button>
                 </div>
-                <div class="brochure_img">
-                    <img class="img-fluid" src="img/1940_brochure.png.png" alt="brochure">
-                 </div>
-
-
+                <img class="img-fluid" src="img/1940_brochure.png.png" alt="brochure">
 
             </div>
-            
-        
-
     </section>
     <!-- FORMULAIRE -->
-    <section class="col-12 offset-md-2 col-md-8 form_section p-5">
+    <section class="form_section container-fluid p-5">
             <h2>Book a demo</h2>
-            <form action="" class="row form_container">
+            <form action="" class="row col-md-8 offset-md-2 form_container">
                 <div class="col-6">
                     <label for="firstname" class="form-label">First name</label>
                     <input type="text" class="form-control" name="firstname" id="firstname">
@@ -353,13 +312,19 @@
 
                 <div class="col-12">
                     <label for="country" class="form-label">Country</label>
-                    <input type="text" class="form-control" name="country" id="country">
+                    <select class="form-select" id="country" aria-label="Default select example">
+                        <option selected>Select...</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
                 </div>
-                <p>You have a right to withdraw your consent at any time by clicking <a href="">here</a>. We may still continue to send you
+                <!-- form text 1 -->
+                <p class="p-1 my-0">You have a right to withdraw your consent at any time by clicking <a href="">here</a>. We may still continue to send you
                     service-related and other non-promotional communications. For more information relating to our privacy
                     practices, we invite you to review our Privacy Policy at: <a href="https://www.gehealthcare.com/privacy">https://www.gehealthcare.com/privacy</a></p>
-
-                <div class="form-check">
+                <!-- form checkbox -->
+                <div class="formcheck col-10 ">
                     <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                     <label class="form-check-label" for="flexCheckDefault">By clicking here, you are agreeing to receive marketing emails, newsletters and other
                         promotional communications from GE HealthCare from time to time.
@@ -367,10 +332,103 @@
                 </div>
             
                 <div class="text-center">
-                    <button type="submit" class="btn btn-primary violet_button form_button ">Book a demo</button>
+                    <button type="submit" class="btn btn-primary violet_button form_button my-3 ">Book a demo</button>
                 </div>
             </form>
     </section>
+
+    <!-- MODAL TEST -->
+    <section class="modal_contentt container">
+        <div class="row">
+            <!-- COL 1 -->
+            <div class="modal_content-left col-12 col-md-6 p-0">
+                <div>
+                    <p>
+                        Reshape the mammography experience
+                    </p>
+                    <h2>
+                        Senographe Pristina™
+                    </h2>
+                    <p>
+                        Senographe Pristina was built with one objective in mind:
+                        to ease patient anxiety and feel comfortable during the exam.  
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <img src="img/1940_popup1_product.png.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li>
+                                A new design to limit physical strain.
+                            </li>
+                            <li>
+                                An inviting gantry, attractively lighted
+                                with feminine shapes, promotes a sense
+                                of calm.
+                            </li>
+                            <li>
+                                All parts that contact the patient are
+                                carefully rounded and minimized in size.
+                            </li>
+                            <li>
+                                Flexible paddles are available that can
+                                tilt to adapt to the breast anatomy.
+                            </li>
+                            <li>
+                                A soft-curved surface invites patients into
+                                a space of comfort and support.
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <!-- COL 2 -->
+            <div class="modal_content-right col-12 col-md-6 p-0">
+                <div class="row">
+                    <div class="col">
+                        <div>
+                            <h5 class="modal_headline" >Clarity for radiologists</h5>
+                            <p class="modal_boldtext">Superior diagnostic accuracy</p>
+                            <p>Senographe Pristina sets the <span class="modal_boldtext">bar high for
+                                diagnostic confidence and performance,</span>
+                                leveraging the Senographe family’s widely
+                                recognized image quality.
+                            </p>
+                            <p>Senographe Pristina platform is upgradeable
+                                to advanced applications: Contrast-
+                                Enhanced Mammography and biopsy.</p>
+                        </div>
+                        <div>
+                            <h5 class="modal_headline fw-semibold">Confidence for technologists</h5>
+                            <p>Senographe Pristina is ready to use within
+                                a few minutes after startup, without
+                                requiring any calibration.</p>
+                            <p>The ergonomic design of Senographe
+                                Pristina eases patient positioning and
+                                improves the overall mammography
+                                experience for both patients and
+                                technologists</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <div>
+                            <img src="img/1940_popup1_cr1.png.png" class="img-fluid" alt="">
+                            <img src="img/1940_popup1_cr2.png.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+                <img src="img/1940_popup1_patients.png.png" class="img-fluid" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
     <footer class="text-center footer container-fluid">
         <div class="container col-10 p-5">
             <p>* Pristina Bright is a commercial offering that includes Senographe Pristina™, SenoBright™ HD and Serena Bright™.
@@ -390,7 +448,7 @@
                 JB24505XX</p>
         </div>
     </footer>
-
+    
 
 </main>
 
