@@ -1,0 +1,145 @@
+@font-face {
+  font-family: SourceSansProBold;
+  src: url(/fonts/SourceSansPro-Bold.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: SourceSansProSemiBold;
+  src: url(/fonts/SourceSansPro-Semibold.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: SourceSansPro;
+  src: url(/fonts/SourceSansPro-Regular.otf);
+  font-weight: bold;
+}
+* {
+  font-family: SourceSansPro;
+}
+/****** General ***********/
+
+:root {
+  --grey: #e4e4e4;
+  --violet: #6022a6;
+}
+p {
+  font-size: 16px;
+  color: white;
+}
+.ol {
+  outline: 1px solid red;
+}
+/* CAROUSEL */
+.carousel {
+  background-color: black;
+  min-height: 750px;
+  flex-direction: column;
+  gap: 50px;
+}
+.carousel h2 {
+  font-family: SourceSansProSemiBold;
+  color: white;
+  font-size: 25px;
+}
+.carousel_img {
+  width: 344px;
+}
+
+.captions {
+  text-align: left;
+  color: white;
+  max-width: 400px;
+}
+.captions h3 {
+  font-family: SourceSansProBold;
+  font-size: 18px;
+}
+.captions p {
+  font-family: SourceSansPro;
+}
+
+.carousel-control-prev {
+}
+.carousel-control-next {
+}
+
+.carousel-indicators button {
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.514);
+  border-radius: 10px;
+  margin: 3px;
+  top: 30px;
+}
+
+.carousel-indicators li.active {
+  background: #ffffff;
+}
+
+.carousel-control {
+  width: 100px;
+}
+/* .carousel_container {
+  background-color: black;
+  max-width: 1200px;
+  padding: 0px;
+}
+.carousel_container > h2 {
+  font-weight: 600;
+  color: white;
+  font-size: 25px;
+}
+.carousel-indicators {
+}
+
+.carousel-indicators button {
+  outline: 1px solid black;
+  height: initial;
+  width: initial;
+}
+.carousel-indicators li {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.514);
+  border-radius: 10px;
+  margin: 3px;
+  top: 30px;
+}
+.carousel-indicators li.active {
+  background: #ffffff;
+}
+.carousel-inner {
+  border: 2px solid yellowgreen;
+}
+.carousel-item {
+  gap: 50px;
+}
+.d-block {
+  width: 529px;
+}
+.carousel-caption {
+  width: 320px;
+  position: initial;
+}
+.carousel-caption h5 {
+  font-size: 18px;
+  color: white;
+}
+.carousel-caption p {
+  font-size: 16px;
+  color: white;
+  line-height: 20px;
+}
+.carousel-control {
+  width: 35px;
+} */

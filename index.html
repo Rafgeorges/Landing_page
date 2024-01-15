@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/modal.css">
+    <link rel="stylesheet" href="/css/carousel.css"
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -87,7 +88,7 @@
                         <p>A sensitive design to reshape the Mammography experience.
                         </p>
                         <!-- COLUMN 1 BUTTON -->
-                        <button type="button" class="btn btn-primary more" data-toggle="modal" data-target="#exampleModal">
+                        <button type="button" class="btn btn-primary more" data-toggle="modal" data-target=".bd-example-modal-lg">
                             <img src="img/loupe.png" alt="loupe">
                         </button>
                     </div>
@@ -110,7 +111,7 @@
                             are otherwise masked.
                         </p>
                         <!-- COLUMN 2 BUTTON -->
-                        <button type="button" class="btn btn-primary more" data-toggle="modal" data-target="#exampleModal">
+                        <button type="button" class="btn btn-primary more" data-toggle="modal" data-target=".bd-example-modal-lg">
                             <img src="img/loupe.png" alt="loupe">
                         </button>
                     </div>
@@ -133,7 +134,7 @@
                             SenoBright™.
                         </p>
                         <!-- COLUMN 3 BUTTON -->
-                        <button type="button" class="btn btn-primary more" data-toggle="modal" data-target="#exampleModal">
+                        <button type="button" class="btn btn-primary more" data-toggle="modal" data-target=".bd-example-modal-lg">
                             <img src="img/loupe.png" alt="loupe">
                         </button>
                     </div>
@@ -143,25 +144,102 @@
             </div>
           </div>
     </section>
-         <!-- Modal -->
-         <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button>
 
+         <!-- Modal -->
         <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    ...
-                </div>
+            <div class="modal-dialog modal-xl">
+                <section class="modal_contentt container">
+                    <div class="row">
+                        <!-- COL 1 -->
+                        <div class="modal_content-left col-12 col-xl-6 p-5">
+                            <div class="out ">
+                                <p>
+                                    Reshape the mammography experience
+                                </p>
+                                <h2>
+                                    Senographe Pristina™
+                                </h2>
+                                <p>
+                                   <b> Senographe Pristina was built with one objective in mind:
+                                    to ease patient anxiety and feel comfortable during the exam. </b> 
+                                </p>
+                            </div>
+                            <div class="row">
+                                <div class="col-5">
+                                    <img src="img/1940_popup1_product.png.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-7">
+                                    <ul class="modal_list out p-2 mt-4">
+                                        <li>
+                                            A new design to limit physical strain.
+                                        </li>
+                                        <li>
+                                            An inviting gantry, attractively lighted
+                                            with feminine shapes, promotes a sense
+                                            of calm.
+                                        </li>
+                                        <li>
+                                            All parts that contact the patient are
+                                            carefully rounded and minimized in size.
+                                        </li>
+                                        <li>
+                                            Flexible paddles are available that can
+                                            tilt to adapt to the breast anatomy.
+                                        </li>
+                                        <li>
+                                            A soft-curved surface invites patients into
+                                            a space of comfort and support.
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                        <!-- COL 2 -->
+                        <div class="modal_content-right col-12 col-xl-6 p-0 ">
+                            <button type="button" class="close " data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true" class="close_cross ">&times;</span>
+                            </button>
+                            <div class="row p-5">
+                                <div class="col-7">
+                                    <div>
+                                        <h5 class="modal_headline" >Clarity for radiologists</h5>
+                                        <p class="modal_boldtext">Superior diagnostic accuracy</p>
+                                        <p>Senographe Pristina sets the <span class="modal_boldtext">bar high for
+                                            diagnostic confidence and performance,</span>
+                                            leveraging the Senographe family’s widely
+                                            recognized image quality.
+                                        </p>
+                                        <p>Senographe Pristina platform is <span class="modal_boldtext">upgradeable
+                                            to advanced applications:</span> Contrast-
+                                            Enhanced Mammography and biopsy.</p>
+                                    </div>
+                                    <div>
+                                        <h5 class="modal_headline fw-semibold">Confidence for technologists</h5>
+                                        <p>Senographe Pristina is <span class="modal_boldtext">ready to use </span>within
+                                            a few minutes after startup, without
+                                            requiring any calibration.</p>
+                                        <p>The ergonomic design of Senographe
+                                            Pristina eases patient positioning and
+                                            <span class="modal_boldtext">improves the overall mammography
+                                            experience </span>for both patients and
+                                            technologists</p>
+                                    </div>
+                                </div>
+                                <div class="col-5 pt-5">
+                                    <div class=" row gy-5">
+                                        <img src="img/1940_popup1_cr1.png.png" class="img-fluid " alt="">
+                                        <img src="img/1940_popup1_cr2.png.png" class="img-fluid " alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="img/1940_popup1_patients.png.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
-                
-                
-                
-                
-                
-                
-    
-    
-        </section>
     <!-- VIDEO PLUGIN -->
     <section class="video_plugin container-fluid">
         <img src="img/1940_video.png.png" class="img-fluid" calt="video">
@@ -171,58 +249,107 @@
         <button class="bookademo_button violet_button">Book a demo</button>
     </section>
     <!-- CAROUSEL -->
-    <section class="container-fluid carousel_container text-center">
-        <h2 class="p-5">Clinical Cases</h2>
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <ol class="carousel-indicators p-2">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-              </ol>
-            <div class="carousel-inner p-5">
-            <!-- SLIDE 1 -->
-              <div class="carousel-item p-5 active d-flex justify-content-center align-items-center">
-                <img src="img/6 → 1940_case1b.png.png" class="d-block  " alt="...">
-                <div class="carousel-caption d-none d-md-block text-start my-auto">
-                  <h5><b>Case #1</b></h5>
-                  <p>Our most recent CEM release (Nira), image quality
-                    was assessed superior in more than 98% of the
-                    images presented by all the readers </p>
+    <section class="container-fluid p-0 carousel_container text-center">
+        <!-- Carousel -->
+    <div id="demo" class="carousel slide p-5 d-flex align-items-center ol" data-bs-ride="carousel">
+    <h2>Clinical Cases</h2>
+    <!-- Indicators/dots -->
+    <ol class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="3"></li>
+        <li data-target="#demo" data-slide-to="4"></li>
+        <li data-target="#demo" data-slide-to="5"></li>
+    </ol>
+  
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner container my-auto">
+        
+        <!-- slide -->
+        <div class="carousel-item active my-5 px-5">
+            <div class="row">
+                <img src="img/6 → 1940_case1b.png.png" alt="case1b" class="col carousel_img">
+                <div class="col captions my-md-auto mt-5  mx-5">
+                    <h3>Case #1</h3>
+                    <p>Our most recent CEM release (Nira), image quality
+                        was assessed superior in more than 98% of the
+                        images presented by all the readers  </p>
                 </div>
-              </div>
-              <!-- SLIDE 2 -->
-              <div class="carousel-item ">
-                <img src="img/6 → 1940_case1b.png.png" class="d-block  " alt="...">
-                <div class="carousel-caption d-none d-md-block text-start my-auto">
-                  <h5><b>Case #2</b></h5>
-                  <p>Our most recent CEM release (Nira), image quality
-                    was assessed superior in more than 98% of the
-                    images presented by all the readers </p>
-                </div>
-              </div>
-              <!-- SLIDE 3 -->
-              <div class="carousel-item ">
-                <img src="img/6 → 1940_case1b.png.png" class="d-block  " alt="...">
-                <div class="carousel-caption d-none d-md-block text-start my-auto">
-                  <h5><b>Case #3</b></h5>
-                  <p>Our most recent CEM release (Nira), image quality
-                    was assessed superior in more than 98% of the
-                    images presented by all the readers </p>
-                </div>
-              </div>
             </div>
-            <button class="carousel-control-prev carousel-control ms-3 my-auto" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next carousel-control me-3 my-auto" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+        </div>
+        <!-- slide -->
+        <div class="carousel-item my-5 px-5">
+            <div class="row">
+                <img src="img/6 → 1940_case1b.png.png" alt="case1b" class="col carousel_img">
+                <div class="col captions my-md-auto mt-5  mx-5">
+                    <h3>Case #2</h3>
+                    <p>Our most recent CEM release (Nira), image quality
+                        was assessed superior in more than 98% of the
+                        images presented by all the readers  </p>
+                </div>
+            </div>
+        </div>
+        <!-- slide -->
+        <div class="carousel-item my-5 px-5">
+            <div class="row">
+                <img src="img/6 → 1940_case1b.png.png" alt="case1b" class="col carousel_img">
+                <div class="col captions my-md-auto mt-5  mx-5">
+                    <h3>Case #3</h3>
+                    <p>Our most recent CEM release (Nira), image quality
+                        was assessed superior in more than 98% of the
+                        images presented by all the readers  </p>
+                </div>
+            </div>
+        </div>
+        <!-- slide -->
+        <div class="carousel-item my-5 px-5">
+            <div class="row">
+                <img src="img/6 → 1940_case1b.png.png" alt="case1b" class="col carousel_img">
+                <div class="col captions my-md-auto mt-5  mx-5">
+                    <h3>Case #4</h3>
+                    <p>Our most recent CEM release (Nira), image quality
+                        was assessed superior in more than 98% of the
+                        images presented by all the readers  </p>
+                </div>
+            </div>
+        </div>
+        <!-- slide -->
+        <div class="carousel-item my-5 px-5">
+            <div class="row">
+                <img src="img/6 → 1940_case1b.png.png" alt="case1b" class="col carousel_img">
+                <div class="col captions my-md-auto mt-5  mx-5">
+                    <h3>Case #5</h3>
+                    <p>Our most recent CEM release (Nira), image quality
+                        was assessed superior in more than 98% of the
+                        images presented by all the readers  </p>
+                </div>
+            </div>
+        </div>
+        <!-- slide -->
+        <div class="carousel-item my-5 px-5">
+            <div class="row">
+                <img src="img/6 → 1940_case1b.png.png" alt="case1b" class="col carousel_img">
+                <div class="col captions my-md-auto mt-5  mx-5">
+                    <h3>Case #6</h3>
+                    <p>Our most recent CEM release (Nira), image quality
+                        was assessed superior in more than 98% of the
+                        images presented by all the readers  </p>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <!-- Left and right controls/icons -->
+    <a class="carousel-control-prev carousel-control" href="#demo" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only"></span>
+      </a>
+    <a class="carousel-control-next carousel-control" href="#demo" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only"></span>
+      </a>
+  </div>
     </section>
     <!-- CEM COURSE -->
     <section class="CEMProgram_container container-fluid">
@@ -337,97 +464,6 @@
             </form>
     </section>
 
-    <!-- MODAL TEST -->
-    <section class="modal_contentt container">
-        <div class="row">
-            <!-- COL 1 -->
-            <div class="modal_content-left col-12 col-md-6 p-0">
-                <div>
-                    <p>
-                        Reshape the mammography experience
-                    </p>
-                    <h2>
-                        Senographe Pristina™
-                    </h2>
-                    <p>
-                        Senographe Pristina was built with one objective in mind:
-                        to ease patient anxiety and feel comfortable during the exam.  
-                    </p>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <img src="img/1940_popup1_product.png.png" class="img-fluid" alt="">
-                    </div>
-                    <div class="col">
-                        <ul>
-                            <li>
-                                A new design to limit physical strain.
-                            </li>
-                            <li>
-                                An inviting gantry, attractively lighted
-                                with feminine shapes, promotes a sense
-                                of calm.
-                            </li>
-                            <li>
-                                All parts that contact the patient are
-                                carefully rounded and minimized in size.
-                            </li>
-                            <li>
-                                Flexible paddles are available that can
-                                tilt to adapt to the breast anatomy.
-                            </li>
-                            <li>
-                                A soft-curved surface invites patients into
-                                a space of comfort and support.
-                            </li>
-                        </ul>
-                    </div>
-                    
-                    
-                </div>
-            </div>
-            <!-- COL 2 -->
-            <div class="modal_content-right col-12 col-md-6 p-0">
-                <div class="row">
-                    <div class="col">
-                        <div>
-                            <h5 class="modal_headline" >Clarity for radiologists</h5>
-                            <p class="modal_boldtext">Superior diagnostic accuracy</p>
-                            <p>Senographe Pristina sets the <span class="modal_boldtext">bar high for
-                                diagnostic confidence and performance,</span>
-                                leveraging the Senographe family’s widely
-                                recognized image quality.
-                            </p>
-                            <p>Senographe Pristina platform is upgradeable
-                                to advanced applications: Contrast-
-                                Enhanced Mammography and biopsy.</p>
-                        </div>
-                        <div>
-                            <h5 class="modal_headline fw-semibold">Confidence for technologists</h5>
-                            <p>Senographe Pristina is ready to use within
-                                a few minutes after startup, without
-                                requiring any calibration.</p>
-                            <p>The ergonomic design of Senographe
-                                Pristina eases patient positioning and
-                                improves the overall mammography
-                                experience for both patients and
-                                technologists</p>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        <div>
-                            <img src="img/1940_popup1_cr1.png.png" class="img-fluid" alt="">
-                            <img src="img/1940_popup1_cr2.png.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
-                </div>
-                <img src="img/1940_popup1_patients.png.png" class="img-fluid" alt="">
-            </div>
-        </div>
-    </section>
     <!-- FOOTER -->
     <footer class="text-center footer container-fluid">
         <div class="container col-10 p-5">

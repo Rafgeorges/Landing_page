@@ -1,6 +1,24 @@
+@font-face {
+  font-family: SourceSansProBold;
+  src: url(/fonts/SourceSansPro-Bold.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: SourceSansProSemiBold;
+  src: url(/fonts/SourceSansPro-Semibold.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: SourceSansPro;
+  src: url(/fonts/SourceSansPro-Regular.otf);
+  font-weight: bold;
+}
 /****** General ***********/
 * {
-  font-family: "Source Sans 3", sans-serif;
+  font-family: "SourceSansPro", sans-serif;
+  color: black;
 }
 :root {
   --grey: #e4e4e4;
@@ -173,63 +191,7 @@ p {
   height: 34px;
 }
 /* CAROUSEL */
-.carousel_container {
-  background-color: black;
-  max-width: 1200px;
-  padding: 0px;
-}
-.carousel_container > h2 {
-  font-weight: 600;
-  color: white;
-  font-size: 25px;
-}
-.carousel-indicators {
-}
-
-.carousel-indicators button {
-  outline: 1px solid black;
-  height: initial;
-  width: initial;
-}
-.carousel-indicators li {
-  display: inline-block;
-  width: 8px;
-  height: 8px;
-  text-indent: -999px;
-  cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.514);
-  border-radius: 10px;
-  margin: 3px;
-  top: 30px;
-}
-.carousel-indicators li.active {
-  background: #ffffff;
-}
-.carousel-inner {
-  border: 2px solid yellowgreen;
-}
-.carousel-item {
-  gap: 50px;
-}
-.d-block {
-  width: 529px;
-}
-.carousel-caption {
-  width: 320px;
-  position: initial;
-}
-.carousel-caption h5 {
-  font-size: 18px;
-  color: white;
-}
-.carousel-caption p {
-  font-size: 16px;
-  color: white;
-  line-height: 20px;
-}
-.carousel-control {
-  width: 35px;
-}
+/* voir carousel.css */
 
 /* CEM Program */
 
@@ -252,7 +214,6 @@ p {
 .brochure_container {
   background-color: var(--grey);
   min-height: 339px;
-  max-width: 1200px;
 }
 .brochure_row {
   display: flex;
