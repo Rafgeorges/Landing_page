@@ -28,9 +28,7 @@ p {
   font-size: 16px;
   color: white;
 }
-.ol {
-  outline: 1px solid red;
-}
+
 /* CAROUSEL */
 .carousel {
   background-color: black;

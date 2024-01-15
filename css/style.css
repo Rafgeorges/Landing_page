@@ -7,13 +7,16 @@
 @font-face {
   font-family: SourceSansProSemiBold;
   src: url(/fonts/SourceSansPro-Semibold.otf);
-  font-weight: bold;
 }
 
 @font-face {
   font-family: SourceSansPro;
   src: url(/fonts/SourceSansPro-Regular.otf);
-  font-weight: bold;
+}
+
+@font-face {
+  font-family: SourceSansProLight;
+  src: url(/fonts/SourceSansPro-Light.otf);
 }
 /****** General ***********/
 * {
@@ -28,14 +31,15 @@ p {
   font-size: 18px;
   color: black;
 }
-
+.bold {
+  font-family: SourceSansProBold;
+}
 .violet_button {
   border-style: none;
   font-size: 16px;
   font-weight: 700;
   color: white;
   background-color: var(--violet);
-  padding: 7px 30px;
 }
 
 /*    ------------------    HEADER  ---------------- */
@@ -77,10 +81,14 @@ p {
   text-align: center;
 }
 .pristina_bot h1 {
+  font-family: SourceSansProSemiBold;
   font-size: 25px;
-  font-weight: 600;
   color: black;
   margin-bottom: 30px;
+}
+.pristina_bot p {
+  color: black;
+  font-size: 18px;
 }
 .pristina_bot--readmore a {
   font-style: italic;
@@ -93,83 +101,9 @@ p {
   width: 100px;
   background-color: #63666a;
 }
-/* PRISTINA COLUMNS */
-
-.more {
-  background-color: var(--violet);
-  border: none;
-  height: 40px;
-  width: 40px;
-  padding: 7px;
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  border-radius: 0px 0px 5px 0px;
-}
-.more img {
-  object-fit: cover;
-}
 
 /* PRISTINA COLUMNS */
-
-.pristina_column--row {
-  /* outline: 1px solid black; */
-  max-width: 1000px;
-  margin: auto;
-}
-.pristina_column--row > div {
-  padding: 0px;
-}
-.pristina_column--row > h2 {
-  color: var(--violet);
-  font-weight: 600;
-  font-size: 25px;
-  text-align: center;
-  margin-bottom: 35px;
-}
-.pristina_column--content {
-  background-color: var(--grey);
-  position: relative;
-  max-width: 260px;
-  max-height: 295px;
-  border-radius: 10px;
-}
-.pristina_column--content > img {
-  max-width: 198px;
-  width: 100%;
-}
-
-.pristina_column--content > div > h3 {
-  font-size: 20px;
-  font-weight: 600;
-  color: black;
-  margin: 0px;
-  text-align: left;
-}
-.pristina_column--content > div > p {
-  text-align: left;
-  line-height: 19.5px;
-  font-size: 15px;
-}
-
-.plus {
-  max-width: 110px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-@media (max-width: 768px) {
-  .pristina_column--content {
-    display: flex;
-    gap: 25px;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .pristina_column--content > div > p {
-  }
-}
+/* -> columns.css */
 
 /* VIDEO */
 .video_plugin {
@@ -193,7 +127,7 @@ p {
 /* CAROUSEL */
 /* voir carousel.css */
 
-/* CEM Program */
+/* CEM COURSE */
 
 .CEMProgram_container {
   max-width: 1200px;
@@ -209,7 +143,31 @@ p {
   object-fit: fill;
   height: 100%;
 }
+.CEMProgram_container p {
+  color: black;
+  font-size: 18px;
+  line-height: 23.4px;
+}
+.CEMProgram_container h4 {
+  font-family: SourceSansProSemiBold;
+  font-size: 18px;
+  color: var(--violet);
+  margin-top: 25px;
+}
+.CEMProgram_container ul {
+  padding-left: 15px;
+}
+.CEMProgram_container li {
+  margin-top: 10px;
+  list-style-type: none;
+  color: black;
+  font-size: 18px;
+  line-height: 23.4px;
+}
 
+.CEMProgram_container button {
+  font-family: SourceSansProBold;
+}
 /* BROCHURE */
 .brochure_container {
   background-color: var(--grey);
@@ -225,9 +183,14 @@ p {
 .brochure_title {
   max-width: 286px;
 }
+.brochure_title button {
+  font-family: SourceSansProBold;
+}
+
 .brochure_title h1 {
+  font-family: SourceSansProBold;
   font-size: 30px;
-  font-weight: 700;
+  line-height: 36px;
   color: var(--violet);
   text-align: center;
 }
@@ -237,6 +200,8 @@ p {
   max-width: 1200px;
 }
 .form_section h2 {
+  font-family: SourceSansProSemiBold;
+
   color: var(--violet);
   font-weight: 600;
   font-size: 25px;

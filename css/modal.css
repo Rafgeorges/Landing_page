@@ -1,7 +1,4 @@
 /****** General ***********/
-.modal_contentt {
-  font-family: "Source Sans 3", sans-serif;
-}
 
 :root {
   --grey: #e4e4e4;
@@ -11,35 +8,25 @@ p {
   font-size: 18px;
   color: black;
 }
-
-.violet_button {
-  border-style: none;
-  font-size: 16px;
-  font-weight: 700;
-  color: white;
-  background-color: var(--violet);
-  padding: 7px 30px;
-}
-.out {
-}
 /* MODAL */
-.modal-lg {
+.modal-dialog section {
+  border-radius: 10px;
+  overflow: hidden;
 }
-.modal_contentt {
-  background-color: turquoise;
-}
+
 .modal_content-left {
-  /* height: 800px; */
   background-color: white;
 }
 .modal_content-left p {
+  margin: 0px;
   font-size: 16px;
   line-height: 19.5px;
+  color: black;
 }
 .modal_content-left h2 {
+  font-family: SourceSansProSemiBold;
   font-size: 40px;
   color: var(--violet);
-  font-weight: 600;
 }
 .modal_list {
   display: flex;
@@ -62,14 +49,10 @@ p {
   line-height: 19.5px;
 }
 .modal_headline {
+  font-family: SourceSansProSemiBold;
   color: var(--violet);
   font-size: 16px;
   line-height: 20.8px;
-  font-weight: 600;
-}
-
-.modal_boldtext {
-  font-weight: 700;
 }
 
 .close {
@@ -88,4 +71,5 @@ p {
 .close_cross {
   font-size: 40px;
   color: #000000;
+  cursor: pointer;
 }
